@@ -24,8 +24,8 @@
     "minimum-stability": "stable",
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/caoyuanlianni/yii2-article"
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "autoload": {

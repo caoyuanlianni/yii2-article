@@ -13,16 +13,28 @@ use caoyuanlianni\article\AutoloadArticle;
 
 class DemoTest extends TestCase
 {
-    public function testDemo()
+    public function testArray()
     {
         $array = ['id', 'title', 'content']; // 正确的
-//        $array = ['id', 'title']; // 错误的
+        //$array = ['id', 'title']; // 错误的
 
         $article = new AutoloadArticle();
 
         $this->assertEquals(
             $array,
-            $article->run()
+            $article->toArray()
+        );
+    }
+
+    public function testString()
+    {
+        $string = '';
+
+        $article = new AutoloadArticle();
+
+        $this->assertEquals(
+            $string,
+            $article->widget()
         );
     }
 }

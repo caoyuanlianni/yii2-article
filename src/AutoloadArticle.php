@@ -7,7 +7,7 @@ namespace caoyuanlianni\article;
  */
 class AutoloadArticle extends \yii\base\Widget
 {
-    public function run()
+    public function toArray()
     {
         return ['id', 'title', 'content'];
     }

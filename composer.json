@@ -1,0 +1,41 @@
+{
+    "name": "caoyuanlianni/yii2-article",
+    "version": "1.0.0",
+    "description": "文章管理扩展",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "caowei",
+            "email": "caoyuanlianni@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0"
+    },
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "caoyuanlianni\\article\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "caoyuanlianni\\article\\": "tests/"
+        }
+    }
+}

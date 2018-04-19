@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist caoyuanlianni/yii2-article "~v1.0.*"
+php composer.phar require --prefer-dist caoyuanlianni/yii2-article "*"
 ```
 
 or add
 
 ```
-"caoyuanlianni/yii2-article": "~v1.0.*"
+"caoyuanlianni/yii2-article": "*"
 ```
 
 to the require section of your `composer.json` file.
